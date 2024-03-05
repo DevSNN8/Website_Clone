@@ -1,8 +1,6 @@
-.body {
-    background: hsl(220, 15%, 55%);
-}
+
 .container{
-    border: 10px;
+    border: 10px solid black;
     position: relative;
     height: 550px;
     width: 500px;
