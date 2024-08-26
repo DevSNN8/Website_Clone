@@ -1,6 +1,6 @@
-console.log("hello shit world");
+const icon = document.querySelector("i")
+const text = document.querySelector("h2")
 
-document.getElementById("text").innerHTML = "mark";
-
-document.write("Hello fox");
-alert("Banana");
+icon.addEventListener("click",function(){
+    this.classList.toggle("bi bi-moon-stars")
+})
