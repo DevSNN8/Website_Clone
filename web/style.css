@@ -1,20 +1,10 @@
-.vertical-mu{
-    width: 200px;
-}
-
-.vertical-mu a{
-    background-color: #eee;
-    color: black;
+.card{
+    float: left;
+    background-color: brown;
     display: block;
-    padding: 12px;
+    padding: 14px 16px;
+}
+.card a{
     text-decoration: none;
-}
-
-.vertical-mu a:hover {
-    background-color: #ccc;
-}
-
-.vertical-mu a.active {
-    background-color: #04aa6d;
-    color: #eee;
+    color: #dad7d7;
 }

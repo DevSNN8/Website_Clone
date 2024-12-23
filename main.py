@@ -1,4 +1,8 @@
-x = 33
-y = 88
-z = x + y
-print(z)
+score = 22
+
+if score >= 99:
+    print('Win')
+elif score >= 55:
+    print('I thai')
+else: 
+    print('I foot go to hell')
