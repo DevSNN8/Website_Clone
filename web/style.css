@@ -1,9 +1,13 @@
 .box{
+    border: solid 2px;
+    border-radius: 4px;
+    color: rgb(165, 226, 43);
     background-color: #c03939;
-background-image: url('https://www.debtfreedr.com/wp-content/uploads/2023/11/Navy-Seal-Mindset-scaled.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-    padding: 160px 40px;
+    background-image: url(https://png.pngtree.com/png-vector/20230704/ourmid/pngtree-car-racing-jdm-vector-png-image_7443652.png);
+    width: 290px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
 }
