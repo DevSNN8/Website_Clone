@@ -1,21 +1,35 @@
-import tkinter as tk
+import tkinter as tk 
+def show_output():
+    number = int(num_input.get())
 
-def set_messsge():
-    text = text_input.get()
-    title_label.configure(text=text)
+    if number == 0:
+        output_r.configure(text='Banana')
+        return
+
+    output = ''
+    for i in range (1,15):
+        output += str(number) + 'X' + str(i)
+        output += '=' + str(number * i) + '\n'
+
+    output_r.configure(text=output)
 
 window = tk.Tk()
-window.title('Jugle Python')
-window.minsize(width= 400, height= 400)
+window.title('Content Python')
+window.minsize(width=400, height = 400)
 
-title_label = tk.Label(master=window, text='Hunter Milf')
+title_label = tk.Label(master=window, text='Brandi Love')
 title_label.pack()
 
-text_input = tk.Entry(master=window)
-text_input.pack()
+num_input = tk.Entry(master=window)
+num_input.pack()
 
-btn = tk.Button(master=window, text='OL', command= set_messsge)
+
+btn = tk.Button(
+    master=window, text='Result',command=show_output
+)
 btn.pack()
 
-window.mainloop()
+output_r = tk.Label(master=window)
+output_r.pack()
 
+window.mainloop()
