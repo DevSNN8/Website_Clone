@@ -1,7 +1,7 @@
-book = {
-    'name': 'Python',
-    'price': 40, 
-    'page': 500
-}
-book.pop('page')
-print(book)
+class Tank:
+    def __init__(self, name, ammo):
+        self.name = name
+        self.ammo = ammo
+
+first_tank = Tank('pooH', 3)
+print(first_tank.ammo)
